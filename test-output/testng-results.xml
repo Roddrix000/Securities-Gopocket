@@ -1,148 +1,458 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[addTo_WishList Successfully Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[addTo_WishListIs Failed]]>
+    </line>
+    <line>
+      <![CDATA[remove_From_WatchList Successfully Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[remove_From_WatchListIs Failed]]>
+    </line>
+    <line>
+      <![CDATA[validateUserName Successfully Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[validateUserNameIs Failed]]>
+    </line>
+    <line>
+      <![CDATA[handel_Scrip_Alert Successfully Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[handel_Scrip_AlertIs Passed]]>
+    </line>
+    <line>
+      <![CDATA[login_With_Valid_Credentials Successfully Execution Started]]>
+    </line>
+    <line>
       <![CDATA[Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[login_With_Valid_CredentialsIs Passed]]>
+    </line>
+    <line>
+      <![CDATA[verify_LogOut Successfully Execution Started]]>
     </line>
     <line>
       <![CDATA[Successfully Logged Out]]>
     </line>
     <line>
-      <![CDATA[Successfully validated Error Message]]>
+      <![CDATA[verify_LogOutIs Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login_with_InvalidCredentials Successfully Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated Error_Message]]>
+    </line>
+    <line>
+      <![CDATA[Login_with_InvalidCredentialsIs Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login_with_ValidCredentials Successfully Execution Started]]>
     </line>
     <line>
       <![CDATA[Successfully Logined In]]>
     </line>
+    <line>
+      <![CDATA[Login_with_ValidCredentialsIs Passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-09-17T22:41:23 IST" name="Suite" finished-at="2024-09-17T22:42:51 IST" duration-ms="87561">
+  <suite started-at="2024-09-17T23:15:51 IST" name="Suite" finished-at="2024-09-17T23:17:13 IST" duration-ms="82231">
     <groups>
     </groups>
-    <test started-at="2024-09-17T22:41:23 IST" name="Test" finished-at="2024-09-17T22:42:51 IST" duration-ms="87561">
+    <test started-at="2024-09-17T23:15:51 IST" name="Test" finished-at="2024-09-17T23:17:13 IST" duration-ms="82231">
       <class name="in.gopocket.testScripts.Verify_Alert">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_Alert@5bf0d49]" started-at="2024-09-17T22:41:57 IST" name="OpenBrowser" finished-at="2024-09-17T22:42:02 IST" duration-ms="5505" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_Alert@7c7a06ec]" started-at="2024-09-17T23:16:38 IST" name="OpenBrowser" finished-at="2024-09-17T23:16:42 IST" duration-ms="3882" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="handel_Scrip_Alert()[pri:0, instance:in.gopocket.testScripts.Verify_Alert@5bf0d49]" started-at="2024-09-17T22:42:02 IST" name="handel_Scrip_Alert" finished-at="2024-09-17T22:42:11 IST" duration-ms="8363" status="PASS">
+        <test-method signature="handel_Scrip_Alert()[pri:0, instance:in.gopocket.testScripts.Verify_Alert@7c7a06ec]" started-at="2024-09-17T23:16:42 IST" name="handel_Scrip_Alert" finished-at="2024-09-17T23:16:50 IST" duration-ms="7503" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[handel_Scrip_Alert Successfully Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[handel_Scrip_AlertIs Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- handel_Scrip_Alert -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_Alert@5bf0d49]" started-at="2024-09-17T22:42:11 IST" name="close_browser" finished-at="2024-09-17T22:42:11 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_Alert@7c7a06ec]" started-at="2024-09-17T23:16:50 IST" name="close_browser" finished-at="2024-09-17T23:16:50 IST" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- in.gopocket.testScripts.Verify_Alert -->
       <class name="in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@36fc695d]" started-at="2024-09-17T22:41:23 IST" name="OpenBrowser" finished-at="2024-09-17T22:41:31 IST" duration-ms="8247" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@62379589]" started-at="2024-09-17T23:15:51 IST" name="OpenBrowser" finished-at="2024-09-17T23:16:00 IST" duration-ms="9912" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="addTo_WishList()[pri:1, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@36fc695d]" started-at="2024-09-17T22:41:31 IST" name="addTo_WishList" finished-at="2024-09-17T22:41:39 IST" duration-ms="7554" status="PASS">
+        <test-method signature="addTo_WishList()[pri:1, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@62379589]" started-at="2024-09-17T23:16:00 IST" name="addTo_WishList" finished-at="2024-09-17T23:16:12 IST" duration-ms="11324" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#disclosure_submit_btn"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a66e4c388df5942b79ebcbe2da3a0aa7, findElement {using=id, value=disclosure_submit_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65271/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a66e4c388df5942b79ebcbe2da3a0aa7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#disclosure_submit_btn"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a66e4c388df5942b79ebcbe2da3a0aa7, findElement {using=id, value=disclosure_submit_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65271/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a66e4c388df5942b79ebcbe2da3a0aa7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList.addTo_WishList(Verify_User_ableTo_Add_Script_To_WishList.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[addTo_WishList Successfully Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[addTo_WishListIs Failed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addTo_WishList -->
-        <test-method signature="remove_From_WatchList()[pri:2, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@36fc695d]" started-at="2024-09-17T22:41:39 IST" name="remove_From_WatchList" finished-at="2024-09-17T22:41:44 IST" duration-ms="4775" status="PASS">
+        <test-method signature="remove_From_WatchList()[pri:2, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@62379589]" started-at="2024-09-17T23:16:12 IST" name="remove_From_WatchList" finished-at="2024-09-17T23:16:24 IST" duration-ms="12046" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[text()='null']/..//following-sibling::div)[last()]//child::button[contains(@id,'delete')]"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a66e4c388df5942b79ebcbe2da3a0aa7, findElement {using=xpath, value=(//div[text()='null']/..//following-sibling::div)[last()]//child::button[contains(@id,'delete')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65271/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a66e4c388df5942b79ebcbe2da3a0aa7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[text()='null']/..//following-sibling::div)[last()]//child::button[contains(@id,'delete')]"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a66e4c388df5942b79ebcbe2da3a0aa7, findElement {using=xpath, value=(//div[text()='null']/..//following-sibling::div)[last()]//child::button[contains(@id,'delete')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65271/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a66e4c388df5942b79ebcbe2da3a0aa7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList.remove_From_WatchList(Verify_User_ableTo_Add_Script_To_WishList.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[remove_From_WatchList Successfully Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[remove_From_WatchListIs Failed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- remove_From_WatchList -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@36fc695d]" started-at="2024-09-17T22:41:44 IST" name="close_browser" finished-at="2024-09-17T22:41:44 IST" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList@62379589]" started-at="2024-09-17T23:16:24 IST" name="close_browser" finished-at="2024-09-17T23:16:24 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList -->
       <class name="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@5b7a5baa]" started-at="2024-09-17T22:42:11 IST" name="OpenBrowser" finished-at="2024-09-17T22:42:21 IST" duration-ms="9558" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@75d4a5c2]" started-at="2024-09-17T23:16:50 IST" name="OpenBrowser" finished-at="2024-09-17T23:16:53 IST" duration-ms="3299" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="login_With_Valid_Credentials()[pri:1, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@5b7a5baa]" started-at="2024-09-17T22:42:21 IST" name="login_With_Valid_Credentials" finished-at="2024-09-17T22:42:31 IST" duration-ms="10822" status="PASS">
+        <test-method signature="login_With_Valid_Credentials()[pri:1, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@75d4a5c2]" started-at="2024-09-17T23:16:53 IST" name="login_With_Valid_Credentials" finished-at="2024-09-17T23:17:04 IST" duration-ms="10550" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[login_With_Valid_Credentials Successfully Execution Started]]>
+            </line>
             <line>
               <![CDATA[Successfully Logged In]]>
             </line>
+            <line>
+              <![CDATA[login_With_Valid_CredentialsIs Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login_With_Valid_Credentials -->
-        <test-method signature="verify_LogOut()[pri:2, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@5b7a5baa]" started-at="2024-09-17T22:42:31 IST" name="verify_LogOut" finished-at="2024-09-17T22:42:36 IST" duration-ms="4469" status="PASS">
+        <test-method signature="verify_LogOut()[pri:2, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@75d4a5c2]" started-at="2024-09-17T23:17:04 IST" name="verify_LogOut" finished-at="2024-09-17T23:17:08 IST" duration-ms="4461" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[verify_LogOut Successfully Execution Started]]>
+            </line>
             <line>
               <![CDATA[Successfully Logged Out]]>
             </line>
+            <line>
+              <![CDATA[verify_LogOutIs Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_LogOut -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@5b7a5baa]" started-at="2024-09-17T22:42:36 IST" name="close_browser" finished-at="2024-09-17T22:42:36 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials@75d4a5c2]" started-at="2024-09-17T23:17:08 IST" name="close_browser" finished-at="2024-09-17T23:17:09 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials -->
       <class name="in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@175c2241]" started-at="2024-09-17T22:41:44 IST" name="OpenBrowser" finished-at="2024-09-17T22:41:53 IST" duration-ms="9033" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@1d296da]" started-at="2024-09-17T23:16:24 IST" name="OpenBrowser" finished-at="2024-09-17T23:16:27 IST" duration-ms="3290" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="validateUserName()[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@175c2241]" started-at="2024-09-17T22:41:53 IST" name="validateUserName" finished-at="2024-09-17T22:41:57 IST" duration-ms="3450" status="PASS">
+        <test-method signature="validateUserName()[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@1d296da]" started-at="2024-09-17T23:16:27 IST" name="validateUserName" finished-at="2024-09-17T23:16:38 IST" duration-ms="10616" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='verifyWebAuthOtp_input']//input)[1]"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d23136aefb95bfef0f1be2d274c98e5c, findElement {using=xpath, value=(//div[@id='verifyWebAuthOtp_input']//input)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65299/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d23136aefb95bfef0f1be2d274c98e5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='verifyWebAuthOtp_input']//input)[1]"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d23136aefb95bfef0f1be2d274c98e5c, findElement {using=xpath, value=(//div[@id='verifyWebAuthOtp_input']//input)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65299/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d23136aefb95bfef0f1be2d274c98e5c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at in.gopocket.generic.WebDriver_Utility.enterOtp(WebDriver_Utility.java:21)
+at in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage.validateUserName(Validate_UserName_In_Home_And_ProfilePage.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[validateUserName Successfully Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[validateUserNameIs Failed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validateUserName -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@175c2241]" started-at="2024-09-17T22:41:57 IST" name="close_browser" finished-at="2024-09-17T22:41:57 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage@1d296da]" started-at="2024-09-17T23:16:38 IST" name="close_browser" finished-at="2024-09-17T23:16:38 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage -->
       <class name="in.gopocket.testScripts.Validate_Login_Functionality">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Validate_Login_Functionality@776aec5c]" started-at="2024-09-17T22:42:36 IST" name="OpenBrowser" finished-at="2024-09-17T22:42:49 IST" duration-ms="12734" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:in.gopocket.testScripts.Validate_Login_Functionality@557caf28]" started-at="2024-09-17T23:17:09 IST" name="OpenBrowser" finished-at="2024-09-17T23:17:11 IST" duration-ms="2841" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="Login_with_InvalidCredentials()[pri:1, instance:in.gopocket.testScripts.Validate_Login_Functionality@776aec5c]" started-at="2024-09-17T22:42:49 IST" name="Login_with_InvalidCredentials" finished-at="2024-09-17T22:42:50 IST" duration-ms="961" status="PASS">
+        <test-method signature="Login_with_InvalidCredentials()[pri:1, instance:in.gopocket.testScripts.Validate_Login_Functionality@557caf28]" started-at="2024-09-17T23:17:11 IST" name="Login_with_InvalidCredentials" finished-at="2024-09-17T23:17:12 IST" duration-ms="636" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Successfully validated Error Message]]>
+              <![CDATA[Login_with_InvalidCredentials Successfully Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated Error_Message]]>
+            </line>
+            <line>
+              <![CDATA[Login_with_InvalidCredentialsIs Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- Login_with_InvalidCredentials -->
-        <test-method signature="Login_with_ValidCredentials()[pri:2, instance:in.gopocket.testScripts.Validate_Login_Functionality@776aec5c]" started-at="2024-09-17T22:42:50 IST" name="Login_with_ValidCredentials" finished-at="2024-09-17T22:42:51 IST" duration-ms="678" status="PASS">
+        <test-method signature="Login_with_ValidCredentials()[pri:2, instance:in.gopocket.testScripts.Validate_Login_Functionality@557caf28]" started-at="2024-09-17T23:17:12 IST" name="Login_with_ValidCredentials" finished-at="2024-09-17T23:17:13 IST" duration-ms="489" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login_with_ValidCredentials Successfully Execution Started]]>
+            </line>
             <line>
               <![CDATA[Successfully Logined In]]>
             </line>
+            <line>
+              <![CDATA[Login_with_ValidCredentialsIs Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Login_with_ValidCredentials -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Validate_Login_Functionality@776aec5c]" started-at="2024-09-17T22:42:51 IST" name="close_browser" finished-at="2024-09-17T22:42:51 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:in.gopocket.testScripts.Validate_Login_Functionality@557caf28]" started-at="2024-09-17T23:17:13 IST" name="close_browser" finished-at="2024-09-17T23:17:13 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->

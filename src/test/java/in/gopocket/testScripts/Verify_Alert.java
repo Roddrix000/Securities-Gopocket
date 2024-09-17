@@ -5,15 +5,18 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import in.gopocket.generic.BaseClass;
 import in.gopocket.generic.FileLib;
+import in.gopocket.generic.ListenersImplementation;
 import in.gopocket.generic.WebDriver_Utility;
 import in.gopocket.pom.Create_Alert;
 import in.gopocket.pom.Home;
 import in.gopocket.pom.Lets_Get_Started;
 
+@Listeners(ListenersImplementation.class)
 public class Verify_Alert extends BaseClass {
 
 	@Test

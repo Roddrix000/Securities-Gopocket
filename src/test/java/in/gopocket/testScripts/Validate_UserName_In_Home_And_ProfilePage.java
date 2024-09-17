@@ -1,11 +1,15 @@
 package in.gopocket.testScripts;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import in.gopocket.generic.BaseClass;
+import in.gopocket.generic.ListenersImplementation;
 import in.gopocket.generic.WebDriver_Utility;
 import in.gopocket.pom.Home;
 import in.gopocket.pom.Lets_Get_Started;
+
+@Listeners(ListenersImplementation.class)
 
 public class Validate_UserName_In_Home_And_ProfilePage extends BaseClass {
 

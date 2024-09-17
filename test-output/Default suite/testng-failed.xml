@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="in.gopocket.testScripts.Verify_Alert">
+      <class name="in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage">
         <methods>
+          <include name="validateUserName"/>
           <include name="OpenBrowser"/>
-          <include name="handel_Scrip_Alert"/>
           <include name="close_browser"/>
         </methods>
-      </class> <!-- in.gopocket.testScripts.Verify_Alert -->
+      </class> <!-- in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

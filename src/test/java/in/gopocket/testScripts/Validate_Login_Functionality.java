@@ -2,13 +2,16 @@ package in.gopocket.testScripts;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import in.gopocket.generic.BaseClass;
+import in.gopocket.generic.ListenersImplementation;
 import in.gopocket.generic.WebDriver_Utility;
 import in.gopocket.pom.Home;
 import in.gopocket.pom.Lets_Get_Started;
 
+@Listeners(ListenersImplementation.class)
 public class Validate_Login_Functionality extends BaseClass {
 
 	@Test(priority = 1)
