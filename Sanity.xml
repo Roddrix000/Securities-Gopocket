@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList"/>
+      <class name="in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage"/>
+      <class name="in.gopocket.testScripts.Verify_Alert"/>
+      <class name="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials"/>
+      <class name="in.gopocket.testScripts.Validate_Login_Functionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
