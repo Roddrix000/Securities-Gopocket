@@ -20,7 +20,7 @@ public class Validate_Login_Functionality extends BaseClass {
 		lg.getPasswordNxt_btn().click();
 		boolean flag = lg.getInvalid_UN_ErrorMessage().isDisplayed();
 		if (flag) {
-			Reporter.log("Successfully validated Error Message", true);
+			Reporter.log("Successfully validated Error_Message", true);
 		}
 	}
 
