@@ -35,6 +35,15 @@ public class Create_Alert {
 
 	@FindBy(id = "create_alert_text")
 	private WebElement empty_Alert_txt;
+	
+	
+	@FindBy(xpath="//input[@id='value']")
+	private WebElement Value_TxtBox;
+	
+	
+	public WebElement getValue_TxtBox() {
+		return Value_TxtBox;
+	}
 
 	public Create_Alert(WebDriver driver) {
 		PageFactory.initElements(driver, this);

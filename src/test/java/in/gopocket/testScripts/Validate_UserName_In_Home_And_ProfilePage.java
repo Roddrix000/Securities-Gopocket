@@ -1,5 +1,6 @@
 package in.gopocket.testScripts;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -28,6 +29,8 @@ public class Validate_UserName_In_Home_And_ProfilePage extends BaseClass {
 		h.getProfile_icon().click();
 		String HomePage_Name = h.getUserName_txt().getText();
 		h.getProfile_Setting().click();
+		Thread.sleep(1000);
+		driver.findElement(By.id("Account Info_order")).click();
 		String BasicPage_Name = h.getUserName_basicInfo().getText();
 		if (HomePage_Name.equals(BasicPage_Name)) {
 			System.out.println("Same Name is Validate");

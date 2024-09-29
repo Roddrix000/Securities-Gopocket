@@ -18,7 +18,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	public WebDriver driver;
-    @Parameters({"browser"})
+	@Parameters({"browser"})
 	@BeforeClass()
 	public void OpenBrowser(String browser) throws IOException {
 

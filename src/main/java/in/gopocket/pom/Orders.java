@@ -37,9 +37,30 @@ public class Orders {
 	@FindBy(id = "basket_close_btn")
 	private WebElement close_btn;
 
-	@FindBy(id = "Del_scrip_confirm_btn")
+	@FindBy(id = "Del_basket_confirm_btn")
 	private WebElement delete_confirm_BTN;
 
+	@FindBy(xpath="//div[@class='notification-title' and //div[text()='Basket created']]")
+	private WebElement create_Confirm_Notification;
+	
+	@FindBy(xpath="//div[@class='notification-title' and //div[text()='Basket deleted']]")
+	private WebElement delete_Confirm_Notification;
+	
+	public WebElement getDelete_Redbtn() {
+		return delete_Redbtn;
+	}
+
+	public WebElement getCreate_Confirm_Notification() {
+		return create_Confirm_Notification;
+	}
+
+	public WebElement getDelete_Confirm_Notification() {
+		return delete_Confirm_Notification;
+	}
+
+	@FindBy(xpath="//button[text()='Delete']")
+	private WebElement delete_Redbtn;
+	
 	public Orders(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}

@@ -34,6 +34,7 @@ public class Verify_Alert extends BaseClass {
 		Thread.sleep(1000);
 		h.getOrders_Link().click();
 		Create_Alert ca = new Create_Alert(driver);
+		Thread.sleep(1000);
 		ca.getAlerts_Link().click();
 		ca.getCreate_Alert_Btn().click();
 		String scName = f.getData_PropertyFile("ScriptName");
@@ -45,6 +46,7 @@ public class Verify_Alert extends BaseClass {
 		ca.getCondition_dropdown().click();
 		Select sec = new Select(ca.getCondition_dropdown());
 		sec.selectByVisibleText("Less than (<)");
+		ca.getValue_TxtBox().sendKeys("500");
 		ca.getCreate_btn().click();
 		String s = "Symbol";
 		WebElement alert_Script = driver.findElement(By.xpath("//table//th[contains(text(), '" + s

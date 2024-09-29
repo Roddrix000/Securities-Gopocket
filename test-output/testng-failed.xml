@@ -4,21 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage">
+      <class name="in.gopocket.testScripts.Verify_Basket_Functionality">
         <methods>
-          <include name="validateUserName"/>
           <include name="OpenBrowser"/>
+          <include name="create_Basket"/>
           <include name="close_browser"/>
         </methods>
-      </class> <!-- in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage -->
-      <class name="in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList">
-        <methods>
-          <include name="addTo_WishList"/>
-          <include name="OpenBrowser"/>
-          <include name="remove_From_WatchList"/>
-          <include name="close_browser"/>
-        </methods>
-      </class> <!-- in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList -->
+      </class> <!-- in.gopocket.testScripts.Verify_Basket_Functionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
