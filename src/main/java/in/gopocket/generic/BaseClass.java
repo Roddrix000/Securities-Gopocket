@@ -1,8 +1,12 @@
 package in.gopocket.generic;
 
+import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -17,7 +21,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	@Parameters({"browser"})
 	@BeforeClass()
 	public void OpenBrowser(String browser) throws IOException {
@@ -42,6 +46,19 @@ public class BaseClass {
 	@AfterClass
 	public void close_browser() {
 		driver.quit();
+	}
+	
+	public void TakeScreenShot(String res)
+	{	
+		TakesScreenshot ts=(TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File dest=new File("./ScreenShot/"+res+".png");
+		try {
+			FileUtils.copyFile(src, dest);
+			System.out.println("Successfully Captured ScreenShot");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

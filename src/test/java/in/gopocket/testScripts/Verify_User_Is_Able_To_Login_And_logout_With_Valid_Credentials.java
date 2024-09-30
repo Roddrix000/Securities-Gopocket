@@ -1,4 +1,5 @@
 package in.gopocket.testScripts;
+
 import org.openqa.selenium.By;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
@@ -8,6 +9,7 @@ import in.gopocket.generic.BaseClass;
 import in.gopocket.generic.ListenersImplementation;
 import in.gopocket.pom.Home;
 import in.gopocket.pom.Lets_Get_Started;
+
 @Listeners(ListenersImplementation.class)
 
 public class Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials extends BaseClass {
@@ -46,7 +48,7 @@ public class Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials exte
 	public void verify_LogOut() throws InterruptedException {
 		h = new Home(driver);
 		h.getProfile_icon().click();
-		Thread.sleep(1000);	
+		Thread.sleep(1000);
 		h.getLogOut_link().click();
 		Thread.sleep(1000);
 		h.getConfirm_btn().click();

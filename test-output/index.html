@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">9 methods, 4 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,6 +104,21 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_Basket_Functionality" class="method navigator-link" hash-for-method="create_Basket">create_Basket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_Alert" class="method navigator-link" hash-for-method="handel_Scrip_Alert">handel_Scrip_Alert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials" class="method navigator-link" hash-for-method="login_With_Valid_Credentials">login_With_Valid_Credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials" class="method navigator-link" hash-for-method="verify_LogOut">verify_LogOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -132,27 +147,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_Alert" class="method navigator-link" hash-for-method="handel_Scrip_Alert">handel_Scrip_Alert</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials" class="method navigator-link" hash-for-method="login_With_Valid_Credentials">login_With_Valid_Credentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList" class="method navigator-link" hash-for-method="remove_From_WatchList">remove_From_WatchList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage" class="method navigator-link" hash-for-method="validateUserName">validateUserName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials" class="method navigator-link" hash-for-method="verify_LogOut">verify_LogOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -170,6 +170,121 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">in.gopocket.testScripts.Verify_Alert</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handel_Scrip_Alert">
+                  </a> <!-- handel_Scrip_Alert -->
+                  <span class="method-name">handel_Scrip_Alert</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#disclosure_submit_btn&quot;}
+  (Session info: chrome=129.0.6668.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e434a151fd187108b856fb7f0f05c70, findElement {using=id, value=disclosure_submit_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64951/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e434a151fd187108b856fb7f0f05c70
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at in.gopocket.testScripts.Verify_Alert.handel_Scrip_Alert(Verify_Alert.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_With_Valid_Credentials">
+                  </a> <!-- login_With_Valid_Credentials -->
+                  <span class="method-name">login_With_Valid_Credentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@id=&apos;verifyWebAuthOtp_input&apos;]//input)[1]&quot;}
+  (Session info: chrome=129.0.6668.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8df0d0540ac79e7c68892da391db2721, findElement {using=xpath, value=(//div[@id=&apos;verifyWebAuthOtp_input&apos;]//input)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64985}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64985/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8df0d0540ac79e7c68892da391db2721
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials.login_With_Valid_Credentials(Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_LogOut">
+                  </a> <!-- verify_LogOut -->
+                  <span class="method-name">verify_LogOut</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;user-details&apos;]/child::span&quot;}
+  (Session info: chrome=129.0.6668.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8df0d0540ac79e7c68892da391db2721, findElement {using=xpath, value=//button[@class=&apos;user-details&apos;]/child::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64985}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64985/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8df0d0540ac79e7c68892da391db2721
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials.verify_LogOut(Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">in.gopocket.testScripts.Verify_Basket_Functionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -184,9 +299,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90927033240fadf29dfb7e77836c3f37, findElement {using=xpath, value=(//div[@id=&apos;verifyWebAuthOtp_input&apos;]//input)[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55277/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90927033240fadf29dfb7e77836c3f37
+Command: [4191f6d653f037ed26a52ba097bcdf3d, findElement {using=xpath, value=(//div[@id=&apos;verifyWebAuthOtp_input&apos;]//input)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\Ronald\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65053/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4191f6d653f037ed26a52ba097bcdf3d
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -199,7 +314,7 @@ Session ID: 90927033240fadf29dfb7e77836c3f37
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at in.gopocket.generic.WebDriver_Utility.enterOtp(WebDriver_Utility.java:24)
-	at in.gopocket.testScripts.Verify_Basket_Functionality.create_Basket(Verify_Basket_Functionality.java:31)
+	at in.gopocket.testScripts.Verify_Basket_Functionality.create_Basket(Verify_Basket_Functionality.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -210,21 +325,14 @@ Session ID: 90927033240fadf29dfb7e77836c3f37
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials</span>
+              <span class="class-name">in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_With_Valid_Credentials">
-                  </a> <!-- login_With_Valid_Credentials -->
-                  <span class="method-name">login_With_Valid_Credentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_LogOut">
-                  </a> <!-- verify_LogOut -->
-                  <span class="method-name">verify_LogOut</span>
+                  <a name="validateUserName">
+                  </a> <!-- validateUserName -->
+                  <span class="method-name">validateUserName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,36 +355,6 @@ Session ID: 90927033240fadf29dfb7e77836c3f37
                   <a name="Login_with_ValidCredentials">
                   </a> <!-- Login_with_ValidCredentials -->
                   <span class="method-name">Login_with_ValidCredentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateUserName">
-                  </a> <!-- validateUserName -->
-                  <span class="method-name">validateUserName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">in.gopocket.testScripts.Verify_Alert</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="handel_Scrip_Alert">
-                  </a> <!-- handel_Scrip_Alert -->
-                  <span class="method-name">handel_Scrip_Alert</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -363,46 +441,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_With_Valid_Credentials')
-data.setCell(0, 2, 'in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials')
-data.setCell(0, 3, 12569);
+data.setCell(0, 1, 'handel_Scrip_Alert')
+data.setCell(0, 2, 'in.gopocket.testScripts.Verify_Alert')
+data.setCell(0, 3, 10962);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'create_Basket')
 data.setCell(1, 2, 'in.gopocket.testScripts.Verify_Basket_Functionality')
-data.setCell(1, 3, 10661);
+data.setCell(1, 3, 10513);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'handel_Scrip_Alert')
-data.setCell(2, 2, 'in.gopocket.testScripts.Verify_Alert')
-data.setCell(2, 3, 10275);
+data.setCell(2, 1, 'login_With_Valid_Credentials')
+data.setCell(2, 2, 'in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials')
+data.setCell(2, 3, 10401);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addTo_WishList')
-data.setCell(3, 2, 'in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList')
-data.setCell(3, 3, 9278);
+data.setCell(3, 1, 'verify_LogOut')
+data.setCell(3, 2, 'in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials')
+data.setCell(3, 3, 10050);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateUserName')
-data.setCell(4, 2, 'in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage')
-data.setCell(4, 3, 5472);
+data.setCell(4, 1, 'addTo_WishList')
+data.setCell(4, 2, 'in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList')
+data.setCell(4, 3, 7720);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'remove_From_WatchList')
-data.setCell(5, 2, 'in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList')
-data.setCell(5, 3, 4714);
+data.setCell(5, 1, 'validateUserName')
+data.setCell(5, 2, 'in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage')
+data.setCell(5, 3, 5611);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verify_LogOut')
-data.setCell(6, 2, 'in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials')
-data.setCell(6, 3, 4464);
+data.setCell(6, 1, 'remove_From_WatchList')
+data.setCell(6, 2, 'in.gopocket.testScripts.Verify_User_ableTo_Add_Script_To_WishList')
+data.setCell(6, 3, 4434);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'Login_with_InvalidCredentials')
 data.setCell(7, 2, 'in.gopocket.testScripts.Validate_Login_Functionality')
-data.setCell(7, 3, 826);
+data.setCell(7, 3, 664);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'Login_with_ValidCredentials')
 data.setCell(8, 2, 'in.gopocket.testScripts.Validate_Login_Functionality')
-data.setCell(8, 3, 531);
+data.setCell(8, 3, 263);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -413,29 +491,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">handel_Scrip_Alert</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">handel_Scrip_Alert Successfully Execution Started</span>
-                <span class="reporter-method-output">handel_Scrip_AlertIs Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verify_LogOut</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">verify_LogOut Successfully Execution Started</span>
-                <span class="reporter-method-output">Successfully Logged Out</span>
-                <span class="reporter-method-output">verify_LogOutIs Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login_With_Valid_Credentials</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">login_With_Valid_Credentials Successfully Execution Started</span>
-                <span class="reporter-method-output">Successfully Logged In</span>
-                <span class="reporter-method-output">login_With_Valid_CredentialsIs Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">Login_with_InvalidCredentials</span>
               <div class="reporter-method-output-div">
@@ -474,10 +529,31 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">handel_Scrip_Alert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">handel_Scrip_Alert Successfully Execution Started</span>
+                <span class="reporter-method-output">handel_Scrip_AlertIs Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">create_Basket</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">create_Basket Successfully Execution Started</span>
                 <span class="reporter-method-output">create_BasketIs Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_With_Valid_Credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">login_With_Valid_Credentials Successfully Execution Started</span>
+                <span class="reporter-method-output">login_With_Valid_CredentialsIs Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_LogOut</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verify_LogOut Successfully Execution Started</span>
+                <span class="reporter-method-output">verify_LogOutIs Failed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -502,100 +578,106 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addTo_WishList</span>
-                <span class="method-start">8128 ms</span>
+                <span class="method-start">12568 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">remove_From_WatchList</span>
-                <span class="method-start">17416 ms</span>
+                <span class="method-start">20292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">22133 ms</span>
+                <span class="method-start">24728 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">in.gopocket.testScripts.Validate_UserName_In_Home_And_ProfilePage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser(Chrome)</span>
-                <span class="method-start">22464 ms</span>
+                <span class="method-start">24909 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateUserName</span>
-                <span class="method-start">30768 ms</span>
+                <span class="method-start">32998 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">36243 ms</span>
+                <span class="method-start">38610 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">in.gopocket.testScripts.Verify_Alert</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser(Chrome)</span>
-                <span class="method-start">36465 ms</span>
+                <span class="method-start">38777 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handel_Scrip_Alert</span>
-                <span class="method-start">47658 ms</span>
+                <span class="method-start">45897 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">57937 ms</span>
+                <span class="method-start">56994 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser(Chrome)</span>
-                <span class="method-start">58229 ms</span>
+                <span class="method-start">57186 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login_With_Valid_Credentials</span>
-                <span class="method-start">70152 ms</span>
+                <span class="method-start">66740 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verify_LogOut</span>
-                <span class="method-start">82726 ms</span>
+                <span class="method-start">77253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">87192 ms</span>
+                <span class="method-start">87396 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">in.gopocket.testScripts.Validate_Login_Functionality</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser(Chrome)</span>
-                <span class="method-start">87481 ms</span>
+                <span class="method-start">87576 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Login_with_InvalidCredentials</span>
-                <span class="method-start">91867 ms</span>
+                <span class="method-start">94397 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login_with_ValidCredentials</span>
-                <span class="method-start">92697 ms</span>
+                <span class="method-start">95063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">93232 ms</span>
+                <span class="method-start">95326 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">in.gopocket.testScripts.Verify_Basket_Functionality</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser(Chrome)</span>
-                <span class="method-start">93414 ms</span>
+                <span class="method-start">95492 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">create_Basket</span>
-                <span class="method-start">99992 ms</span>
+                <span class="method-start">102763 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close_browser</span>
-                <span class="method-start">110662 ms</span>
+                <span class="method-start">113381 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

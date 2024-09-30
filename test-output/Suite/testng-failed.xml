@@ -4,6 +4,21 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
+      <class name="in.gopocket.testScripts.Verify_Alert">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="handel_Scrip_Alert"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- in.gopocket.testScripts.Verify_Alert -->
+      <class name="in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials">
+        <methods>
+          <include name="login_With_Valid_Credentials"/>
+          <include name="OpenBrowser"/>
+          <include name="verify_LogOut"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- in.gopocket.testScripts.Verify_User_Is_Able_To_Login_And_logout_With_Valid_Credentials -->
       <class name="in.gopocket.testScripts.Verify_Basket_Functionality">
         <methods>
           <include name="OpenBrowser"/>
